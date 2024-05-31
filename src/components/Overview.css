@@ -1,0 +1,19 @@
+.overview {
+    padding: 20px;
+    background-color: #2b2b3c;
+    color: white;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #3b3b4f;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
